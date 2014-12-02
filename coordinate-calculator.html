@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Googlemap coordinate finder</title>
+	<meta charset="UTF-8" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,900,500&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="ressources/css.css" media="screen">
+	
+	
+
+</head>
+<body>
+
+    <header id="title" class="shadow light_background col1 row1"><h1>Google Map coordinate finder</h1></header>
+	
+		<section id="search" class="shadow light_background col1 row2">
+            <h2>Enter your search here :</h2> 
+            <form name="search" id="search_form">
+                <input type="text" id="city">
+                <button id="go">Search</button>
+
+    <header id="title" class="shadow"><h1>Google Map coordinate finder</h1></header>
+	<section id="maincontainer" class="shadow">
+		<section id="search">
+        Enter your search here :
+            <form id="form">
+                <input type="text" id="text_search">
+                <button id="button_search">Search</button>
+
+            </form>
+		</section>
+		<section id="results" class="shadow light_background col1 row3" >
+            <h2>the results of the search is :</h2>
+		</section>
+		<section id="map" class="shadow col2 row2">
+		</section>
+	<footer></footer>
+	
+	
+	<!-- jQuery -->
+	<script src="script/jquery-2.0.1.min.js"></script>
+	<!-- renderer -->
+	<script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+    <!--Script to handle the page-->
+	<script src="script/script.js"></script>
+
+	
+</body>
+</html>

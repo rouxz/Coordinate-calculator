@@ -1,0 +1,160 @@
+/* 
+	CSS for googlemap_coordinate_finder 
+	licensed under GPL v3 see document enclosed
+	Author : Charles Girad
+
+*/
+
+body { 
+	background-color : #f8f8f8;
+	font-family : Arial, "Sans serif";
+	position:relative;
+    border: 0;
+    padding : 5px 5px 5px 5px;
+}
+
+/* **************************** */
+/* 		Structure high level	*/
+/* **************************** */
+
+<<<<<<< HEAD
+
+
+#title{
+    border: 0;
+    position: absolute;
+    width: 1300px;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+
+
+#search{
+    border: 0;
+    position: absolute;
+    width: 230px;
+}
+
+#results{
+    position: absolute;
+    width: 230px;
+}
+
+#map{
+		width: 1000px; 
+		height: 600px;
+		margin: 0;
+        position: absolute;
+}
+
+/* positionnement partagé */
+
+.col1{
+    left: 20px;
+    padding: 5px;
+    margin: 0;
+    
+=======
+#maincontainer{
+	/* position */
+	left : 210px;
+	top : 120px;
+	position : absolute;
+	width : 1000px;
+}
+
+#info{
+	width : 170px;
+	position : absolute;
+	top : 20px;
+	left: 20px;
+	margin : 0px 0px 0px 0px;
+	padding: 5px;
+	display : block;
+	background-color: white;
+}
+
+#title{
+    position: absolute;
+    width: 1000px;
+    top : 10px;
+    left: 210px;
+}
+
+
+#search{
+}
+
+#results{
+}
+
+
+
+
+#map{
+		width: 1000px; 
+		height: 600px;
+		margin: 0;
+>>>>>>> origin/master
+}
+
+.col2{
+    left: 270px;
+    padding: 5px;
+    margin: 0;
+}
+
+.row1{
+    top: 20px
+}
+
+.row2{
+    top: 150px;
+}
+
+.row3{
+    top: 300px;
+}
+
+<<<<<<< HEAD
+/* mise en forme partagées */
+=======
+
+
+
+/* classes partagées */
+>>>>>>> origin/master
+
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 0px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 0px #ccc;
+  box-shadow:         3px 3px 5px 0px #ccc;
+}
+
+
+.light_background{
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+h1{
+    font-family: 'Source Code pro';
+    font-weight: 900;
+}
+
+<<<<<<< HEAD
+h2{
+    font-family: 'Source Code pro';
+    font-weight: 500;
+    font-size: 11pt;
+=======
+
+#map{
+		width: 1000px; 
+		height: 600px;
+		margin: 0;
+>>>>>>> origin/master
+}
+
+
