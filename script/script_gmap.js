@@ -1,5 +1,5 @@
 /* clear space of name */
-(function () {
+(function map_routines () {
     'use strict';
 	var map;
 	var centerMap = new google.maps.LatLng(48.806863, 17.050781);
@@ -22,6 +22,35 @@
 		map = new google.maps.Map(document.getElementById('map'), mapOptions);
 	}
 
+    // find out coordinates in a map
+    function coordinateFinder(value) {
+        // call google map geocode service
+        geocoder.geocode({ 'address': value}, function (results, status) {
+            // result found
+            if (status == google.maps.GeocoderStatus.OK) {
+                map.setCenter(results[0].geometry.location);
+                var marker = new google.maps.Marker({
+                    map: map,
+                    position: results[0].geometry.location
+                });
+                alert("Found");
+                return results[0].geometry.location;
+            }  
+            //result no found
+            else {
+                alert('not found');
+                return 'Geocode was not successful for the following reason: ' + status;
+            }
+        });
+
+    }
+    
+    
+    
+    
+    
+    
+    
 	
 	/* include map in the web page */
 	google.maps.event.addDomListener(window, 'load', initialize);
@@ -30,7 +59,7 @@
 	/* load when the DOM is ready */
 	$().ready(function () {
 
-        this.initialize();
+
 		
 //		$.getJSON("data/data_feed_vba.json")
 //			/* load the map and fill data and markers in it */

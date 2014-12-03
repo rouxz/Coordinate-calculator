@@ -17,7 +17,7 @@
         <h2>Enter your search here :</h2> 
         <form name="search" id="search_form">
             <input type="text" id="city">
-            <button id="go">Search</button>
+            <button id="go" onclick="retrieveCoordinate()">Search</button>
         </form>
     </section>
     <section id="results" class="shadow light_background col1 row3" >
@@ -32,8 +32,10 @@
 	<script src="script/jquery-2.0.1.min.js"></script>
 	<!-- renderer -->
 	<script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+    <!--Script to handle google maps-->
+	<script src="script/script_gmap.js"></script>
     <!--Script to handle the page-->
-	<script src="script/script.js"></script>
+    <script src="script/script_behaviour.js"></script>
 
 	
 </body>
