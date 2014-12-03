@@ -17,7 +17,6 @@ body {
 /* 		Structure high level	*/
 /* **************************** */
 
-<<<<<<< HEAD
 
 
 #title{
@@ -54,48 +53,6 @@ body {
     padding: 5px;
     margin: 0;
     
-=======
-#maincontainer{
-	/* position */
-	left : 210px;
-	top : 120px;
-	position : absolute;
-	width : 1000px;
-}
-
-#info{
-	width : 170px;
-	position : absolute;
-	top : 20px;
-	left: 20px;
-	margin : 0px 0px 0px 0px;
-	padding: 5px;
-	display : block;
-	background-color: white;
-}
-
-#title{
-    position: absolute;
-    width: 1000px;
-    top : 10px;
-    left: 210px;
-}
-
-
-#search{
-}
-
-#results{
-}
-
-
-
-
-#map{
-		width: 1000px; 
-		height: 600px;
-		margin: 0;
->>>>>>> origin/master
 }
 
 .col2{
@@ -116,14 +73,14 @@ body {
     top: 300px;
 }
 
-<<<<<<< HEAD
+
 /* mise en forme partagées */
 =======
 
 
 
 /* classes partagées */
->>>>>>> origin/master
+
 
 
 .shadow {
@@ -143,18 +100,12 @@ h1{
     font-weight: 900;
 }
 
-<<<<<<< HEAD
+
 h2{
     font-family: 'Source Code pro';
     font-weight: 500;
     font-size: 11pt;
-=======
 
-#map{
-		width: 1000px; 
-		height: 600px;
-		margin: 0;
->>>>>>> origin/master
 }
 
 

@@ -30,7 +30,7 @@
 	/* load when the DOM is ready */
 	$().ready(function () {
 
-
+        this.initialize();
 		
 //		$.getJSON("data/data_feed_vba.json")
 //			/* load the map and fill data and markers in it */
