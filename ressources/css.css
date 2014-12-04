@@ -96,7 +96,7 @@ body {
 
 
 .results_el{
-    
+    list-style-type: none;
 }
 
 .results_el:hover{
