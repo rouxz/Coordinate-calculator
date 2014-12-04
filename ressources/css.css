@@ -95,6 +95,14 @@ body {
 }
 
 
+.results_el{
+    
+}
+
+.results_el:hover{
+    background-color : hsl(10, 0%, 60%);
+}
+
 h1{
     font-family: 'Source Code pro';
     font-weight: 900;

@@ -14,14 +14,16 @@
     <header id="title" class="shadow light_background col1 row1"><h1>Google Map coordinate finder</h1></header>
 	
     <section id="search" class="shadow light_background col1 row2">
-        <h2>Enter your search here :</h2> 
+        <h2>Enter your search here :</h2>
+        <p class="subtitle">Multiple search is allowed, separate each query with ;</p>
         <form name="search" id="search_form">
             <input type="text" id="city">
-            <button id="go" onclick="COORDINATE_FINDER.retrieveCoordinate()">Search</button>
+            <input type="button" id="search_button" onclick="COORDINATE_FINDER.retrieveCoordinate()" value="Search">
         </form>
     </section>
     <section id="results" class="shadow light_background col1 row3" >
         <h2>the results of the search is :</h2>
+        <ul id="results_list"></ul>
     </section>
     <section id="map" class="shadow col2 row2">
     </section>

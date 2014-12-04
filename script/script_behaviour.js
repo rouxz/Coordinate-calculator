@@ -12,7 +12,23 @@ google.maps.event.addDomListener(window, 'load', MAP_ROUTINES.initialize);
 /* for implementation */
 /* ------------------ */
 COORDINATE_FINDER.retrieveCoordinate = function () {
-    MAP_ROUTINES.coordinateFinder();
+    
+    
+    
+    function displayResults(value, position){
+        var display = '<li class="results_el">' + value + ' : ' + position + '</li>';
+        $("#results_list").append(display);
+    };
+    
+    /* clear the map */
+    MAP_ROUTINES.clearMarkers();
+    
+    /* clear all info within sections */ 
+    $('.results_el').remove();
+    
+    MAP_ROUTINES.coordinateFinderList($('#city').val(), displayResults);
+    
+    
 };
 
 
